@@ -2,6 +2,7 @@ import React from 'react';
 import bluepinImage from '../assets/bluepin-image.png';
 import jsekImage from '../assets/jsek-marketplace-image.png';
 import industrialPipeSpanToolImage from '../assets/industrial-pipe-span-tool-image.png';
+import realestatePortfolioSiteImage from '../assets/realestate-portfolio-site-image.png';
 
 function Projects() {
 
@@ -25,7 +26,19 @@ function Projects() {
             description: 'Built core buyer flows including landing, authentication, checkout, and receipt generation for a responsive e-commerce demo. Implemented Luhn checksum card validation, live card brand detection, simulated decline scenarios, and persistent cart management using local storage.',
             behindTheScenes: 'Proving that shopping carts can be built without losing your mind - or your customer\'s data.',
             tech: ['HTML', 'CSS', 'JavaScript', 'Git', 'Jira'],
-            link: 'https://github.com/Julia-Cameron/jsek-marketplace-project'
+            link: 'https://jsek-marketplace-project-2181inp43-jc-d78b.vercel.app/'
+        },
+
+        {
+            id: 4,
+            title: 'Real Estate Portfolio Site',
+            image: realestatePortfolioSiteImage, // Add the image import at the top and reference it here
+            role: 'Frontend Developer',
+            description: 'A modern and responsive real estate portfolio website showcasing properties and professional services. Built with HTML and CSS to provide a clean, professional presentation of real estate listings and agent information.',
+            behindTheScenes: 'Interesting behind-the-scenes details.',
+            tech: ['HTML5', 'CSS3'],
+            link: 'https://realestate-portfolio-site-mbxbs25fw-jc-d78b.vercel.app'
+
         },
         {
             id: 3,
