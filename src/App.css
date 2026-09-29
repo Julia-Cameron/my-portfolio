@@ -284,7 +284,7 @@ button:focus-visible {
 .skill-badge {
   position: relative;
   width: 100%;
-  min-height: 44px;
+  height: 60px;
   overflow: hidden;
   background:
     radial-gradient(circle at 18% 25%, rgba(255, 255, 255, 0.22) 0 1px, transparent 1.5px),

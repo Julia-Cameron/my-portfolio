@@ -30,18 +30,18 @@ function Projects() {
         },
 
         {
-            id: 4,
+            id: 3,
             title: 'Real Estate Portfolio Site',
             image: realestatePortfolioSiteImage, // Add the image import at the top and reference it here
             role: 'Frontend Developer',
             description: 'A modern and responsive real estate portfolio website showcasing properties and professional services. Built with HTML and CSS to provide a clean, professional presentation of real estate listings and agent information.',
-            behindTheScenes: 'Interesting behind-the-scenes details.',
+            behindTheScenes: 'Where I learned that making luxury property listings look effortlessly chic on every screen size requires significantly more HTML and CSS than actual real estate agents realize.',
             tech: ['HTML5', 'CSS3'],
             link: 'https://realestate-portfolio-site-mbxbs25fw-jc-d78b.vercel.app'
 
         },
         {
-            id: 3,
+            id: 4,
             title: 'Industrial Pipe Span Tool',
             image: industrialPipeSpanToolImage,
             role: 'Full Stack Developer',
