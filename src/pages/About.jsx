@@ -50,7 +50,9 @@ function About() {
                     <p className="skills-description">Through my academic studies in Software Engineering Technology and hands-on project work, I have built a strong foundation in several core technical domains. My practical experience includes front-end development (building responsive e-commerce flows and real estate web pages with HTML, CSS, and JavaScript), database management (designing and populating 3NF-compliant relational databases and writing complex SQL queries), and requirements engineering (authoring comprehensive software requirements specifications, use case diagrams, and workflows). Additionally, I have gained hands-on experience in object-oriented programming, user-centred design, and Agile teamwork using version control tools like Git and Jira.</p>
                     <div className="skills-grid">
 
-                        // Map through skill groups and display each category with its skills
+
+
+                        {/* Map through skill groups and display each category with its skills */}
 
                         {skillGroups.map((group) => {
                             const isActive = activeSkillGroup === group.id;
@@ -74,7 +76,7 @@ function About() {
                                         }
                                     }}
                                 >
-                                    // Skill category button and popover
+                                    {/* Skill category button and popover */}
 
                                     <button
                                         aria-controls={`skills-${group.id}`}
