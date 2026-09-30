@@ -1,3 +1,6 @@
+// StarryBackground component creates a dynamic starry background with interactive magnetic effect.
+// Uses HTML5 canvas to render stars and handle mouse interactions.
+
 import { useEffect, useRef } from 'react';
 
 const StarryBackground = () => {

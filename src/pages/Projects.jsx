@@ -58,6 +58,9 @@ function Projects() {
             <div className="projects-grid">
                 {projects.map(project => (
                     <div key={project.id} className="project-card">
+
+                        {/* Render the project title, image, description, role, outcome, behind the scenes, tech stack, and link. */}
+
                         <h2 className="project-title">{project.title}</h2>
                         {project.image && (
                             <img src={project.image} alt={project.title} className="project-image" />

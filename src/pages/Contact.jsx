@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import emailjs from '@emailjs/browser';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate hook for programmatic navigation
+import emailjs from '@emailjs/browser'; // Import EmailJS for sending emails
 
 function Contact() {
     const navigate = useNavigate();
@@ -21,6 +21,8 @@ function Contact() {
             message: formData.message
         };
 
+        // Use EmailJS to send the email with the specified template and parameters
+
         emailjs.send('service_iodwejf', 'template_k8cuhxv', templateParams, 'PBxW3VP1JHKnogeMH')
             .then((response) => {
                 console.log('SUCCESS!', response.status, response.text);
@@ -28,6 +30,8 @@ function Contact() {
                 setSubmitted(true);
                 setTimeout(() => navigate('/'), 2000);
             })
+
+            // Handle any errors that occur during the email sending process
             .catch((error) => {
                 console.log('FAILED...', error);
                 setLoading(false);
@@ -35,6 +39,7 @@ function Contact() {
             });
     };
 
+    // Handle changes to the form fields
     const handleChange = (e) => {
         const { name, value } = e.target;
         // Update only the field that triggered this change.
@@ -44,6 +49,8 @@ function Contact() {
         });
     };
 
+    // Handle clearing the form fields
+    // Clear the form fields by resetting the formData state to its initial values
     const handleClear = () => {
         setFormData({ name: '', email: '', message: '' });
     };

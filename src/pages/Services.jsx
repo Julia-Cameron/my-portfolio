@@ -30,6 +30,9 @@ function Services() {
             <h1 className="page-title">Services & Offerings</h1>
             <p className="services-subtitle">Building robust applications without any accidental production database deletions. I bring a strong technical foundation, meticulous attention to detail, and a rigorous approach to software development - ensuring your data stays safe while your product moves forward.</p>
             <div className="services-grid">
+
+                {/* Map through the Services array and render each service card. */}
+
                 {Services.map(service => (
                     <div key={service.id} className="service-card">
                         <h2 className="service-title">{service.title}</h2>

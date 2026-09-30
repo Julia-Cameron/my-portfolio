@@ -1,7 +1,11 @@
+// Main application component for the portfolio site. Handles routing and layout
+
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import StarryBackground from './pages/StarryBackground';
+
+// Import all page components and necessary libraries for routing
 
 import Home from './pages/Home';
 import About from './pages/About';
@@ -11,10 +15,12 @@ import Projects from './pages/Projects';
 import Education from './pages/Education';
 import Footer from './Footer';
 
+// Main App component definition starts here.
+
 function App() {
   return (
     <>
-      <StarryBackground />
+      <StarryBackground />      {/* Render the starry background for the entire application. */}
       <Router>
         <div className="app-container">
           {/* Navigation Bar */}
@@ -55,5 +61,5 @@ function App() {
   );
 }
 
-export default App;
+export default App;   // Export the main App component for use in index.js
 

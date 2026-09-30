@@ -40,6 +40,9 @@ function Education() {
             <h1 className="page-title">Education & Credentials</h1>
             <p className="page-subtitle">Long before building e-commerce apps and relational databases, I spent years as a Senior Drafting Engineer turning complex technical drawings into reality and training junior teams. Trading blueprints for code gave me a superpower in cross-functional communication, meticulous quality assurance, and stakeholder alignment - all of which ensures I can build software systems and talk to the humans building them.</p>
             <div className="education-grid">
+
+                {/* Map through the education array and render each education card. */}
+
                 {education.map(edu => (
                     <div key={edu.id} className="education-card">
                         <h2>{edu.degree}</h2>
