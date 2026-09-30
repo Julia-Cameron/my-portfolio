@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Home() {
@@ -6,11 +5,9 @@ function Home() {
         <div className="home-container">
             {/* Introduce the portfolio and link visitors to work and contact. */}
             <div className="hero-content">
-                <h1 className="hero-title">Hi, I'm Julia Cameron</h1>
+                <h1 className="hero-title">Welcome to my portfolio</h1>
                 <p className="hero-subtitle">
-                    <strong>Headline:</strong> Junior Software Developer and Software Engineering Technology student at Centennial College.<br />
-                    <strong>Specialization:</strong> Full-stack development, user interface design, and building reliable, end-to-end web applications.<br />
-                    <strong>Interests:</strong> Exploring new technologies, contributing to open-source projects, and continuously improving my coding skills.
+                    I'm Julia Cameron, a Junior Software Developer and Software Engineering Technology student at Centennial College. I enjoy building reliable web applications and thoughtful user experiences. Explore my projects, learn more about my journey, and feel free to get in touch.
                 </p>
                 {/* Offer direct links to the projects and contact pages. */}
                 <div className="hero-buttons">

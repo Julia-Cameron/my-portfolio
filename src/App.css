@@ -149,6 +149,8 @@ button:focus-visible {
   color: var(--text-muted);
   margin: 80px 0 40px 0;
   line-height: 1.6;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .hero-buttons {
@@ -232,6 +234,8 @@ button:focus-visible {
   color: var(--text-muted);
   line-height: 1.8;
   margin-bottom: 40px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .skills-section h2 {
@@ -382,6 +386,8 @@ button:focus-visible {
   color: var(--text-muted);
   line-height: 1.8;
   margin-bottom: 40px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /*Contact Page Styles*/
@@ -398,6 +404,8 @@ button:focus-visible {
   color: var(--text-muted);
   margin-bottom: 30px;
   line-height: 1.6;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .direct-channels {
@@ -554,12 +562,20 @@ button:focus-visible {
   max-width: 1000px;
   margin: 0 auto;
   padding: 40px 20px;
+
 }
 
 .services-subtitle {
   font-size: 1.1rem;
   color: var(--text-muted);
   margin-bottom: 30px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.service-description {
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /* Paired cards share title and description rows on wider screens. */
@@ -627,6 +643,8 @@ button:focus-visible {
   font-size: 1.1rem;
   color: var(--text-muted);
   margin-bottom: 30px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .projects-grid {
@@ -679,6 +697,13 @@ button:focus-visible {
 .project-description {
   min-height: 5.5em;
   margin-bottom: 8px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.project-behind-the-scenes {
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .project-role,
@@ -771,6 +796,11 @@ button:focus-visible {
   font-size: 0.95rem;
   line-height: 1.5;
   margin-bottom: 20px;
+}
+
+.education-description {
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .education-year {

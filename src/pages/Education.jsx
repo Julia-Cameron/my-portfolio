@@ -46,8 +46,8 @@ function Education() {
                         <p className="education-year">{edu.year}</p>
                         <h3>{edu.institution}</h3>
                         <p>{edu.academicStanding}</p>
-                        <p>{edu.relevantCourses}</p>
-                        <p>{edu.extracurricularActivities}</p>
+                        <p className="education-description">{edu.relevantCourses}</p>
+                        <p className="education-description">{edu.extracurricularActivities}</p>
                         {edu.link && (
                             <p>
                                 <a href={edu.link} className="education-link" target="_blank" rel="noopener noreferrer">
